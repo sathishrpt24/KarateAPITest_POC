@@ -3,6 +3,7 @@ Feature: karate Framework testing - Understanding variables
   Background:
     Given url "https://reqres.in/"
 
+  @test4
   Scenario:
     * def pageNumber = '2'
     Given path "api/users?page="+pageNumber

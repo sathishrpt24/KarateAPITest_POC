@@ -1,3 +1,4 @@
+@test2
 Feature: Read data from table
   Background:
     Given url "https://reqres.in/"

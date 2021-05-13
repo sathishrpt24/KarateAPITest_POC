@@ -3,6 +3,8 @@ Feature: Karate Framework - Put method and Chaining the API requests
     Given url "https://reqres.in/"
     * def getUserId = call read('PostUrl.feature')
     * def id = getUserId.response.id
+
+  @test3
     Scenario: Create a user and Update the same - Chaining of api requests
       Given path "api/users/"+id
       And header Content-Type = 'application/json'

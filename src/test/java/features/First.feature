@@ -1,3 +1,4 @@
+@test2
 Feature: This is Karate POC demo project- Created for learning purpose
 
   Background:

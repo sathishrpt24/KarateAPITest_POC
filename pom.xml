@@ -41,7 +41,11 @@
             <version>0.9.6</version>
             <scope>test</scope>
         </dependency>
-
+        <dependency>
+            <groupId>net.masterthought</groupId>
+            <artifactId>cucumber-reporting</artifactId>
+            <version>5.5.3</version>
+        </dependency>
     </dependencies>
     <build>
         <testResources>

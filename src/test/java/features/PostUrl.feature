@@ -1,3 +1,4 @@
+@test1
 Feature: post api Testing - karate Framework
   Background:
     Given url "https://reqres.in/"
